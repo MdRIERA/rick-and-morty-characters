@@ -75,6 +75,26 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+li{
+  background-color:#f2f2f2;
+  border: 1px solid black;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.30);
+}
+li> img{
+  padding: 30px;
+
+}
+
+li>p{
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 
